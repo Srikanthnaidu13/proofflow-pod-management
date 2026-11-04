@@ -1,4 +1,4 @@
-﻿# ProofFlow - POD Management System
+# ProofFlow - POD Management System
 
 **Public repository:** https://github.com/Srikanthnaidu13/proofflow-pod-management
 
@@ -36,27 +36,27 @@ ProofFlow is a demonstration Proof of Delivery (POD) management application desi
 
 ### Installation
 
-``bash
+```bash
 git clone https://github.com/Srikanthnaidu13/proofflow-pod-management.git
 cd proofflow-pod-management
 npm ci
-``
+```
 
 ### Environment Variable
 
 Create .env.local in the project root:
 
-``env
+```env
 GEMINI_API_KEY=your_google_gemini_api_key
-``
+```
 
 Keep API keys private. Never commit .env.local.
 
 ### Start Development Server
 
-``bash
+```bash
 npm run dev
-``
+```
 
 Open http://localhost:3000.
 
@@ -82,8 +82,12 @@ Use synthetic POD documents for demonstrations. Do not submit real customer or d
 
 ## Quality Checks
 
-``bash
+```bash
 npm run lint
 npx tsc --noEmit
 npm run build
-``
+```
+
+## Live Demo
+
+https://proofflow-pod-management.vercel.app/
